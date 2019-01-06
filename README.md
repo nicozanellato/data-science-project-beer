@@ -1,4 +1,4 @@
-# Craft Beer data for the People!
+# Craft Beer Data for the People!
 This is my first data science project, scraping data about craft beers and applying machine learning.
 
 Being a craft beer lover I started using the app Untappd that allows you to rate and share the beers you’re drinking with your mates and see interesting breweries, new beers and events. As it is an app used all over the world, breweries and pubs list their beers on it and people can rate them. 
