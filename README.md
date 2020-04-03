@@ -1,5 +1,5 @@
 # Craft Beer Data for the People!
-This is my first data science project, scraping data about craft beers and applying machine learning.
+This is my first data science project, scraping craft beer data, visualising it and applying machine learning.
 
 Being a craft beer lover I started using the app Untappd that allows you to rate and share the beers you’re drinking with your mates and see interesting breweries, new beers and events. As it is an app used all over the world, breweries and pubs list their beers on it and people can rate them. 
 I also found the app very useful for when I am travelling. It highlights local breweries or pubs and their beer listing on the map, so that you can find and drink some local goodness. 
@@ -10,6 +10,8 @@ Untppd has also a website, so I decided to give web scraping a go, by scraping a
 
 After scraping the website, I have created an interactive visualisation in Tableau and uploaded it on my Tableau Public profile, which can be seen here (https://public.tableau.com/views/Beer_Project/Map2?:embed=y&:display_count=yes).
 
-I have applied K-nearest neighbours to the the dataset to predict the beer rating of a new beer, given the brewery, ABV (alcohol content), IBU (International Bitterness Unit) and beer type. I managed to reach an accuracy score of 88%! Not too bad really! 
+I have applied K-means clustering to the the dataset to predict the beer rating of a new beer, given the brewery, ABV (alcohol content), IBU (International Bitterness Unit) and beer type. I managed to reach an accuracy score of 88%! Not too bad really!
+
+Also, I created a recommendation system based on cosine similarity to privide similar beers based from a user input.
 
 Feedbacks are welcome! Please let me know what you think or what can be improved.
